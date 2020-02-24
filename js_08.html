@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		<title>Practice 8</title>
+		<meta charset="utf-8">
+	</head>
+	
+		<body>
+			<h1>Self Taught Javascript</h1>
+			<h2>Number 08</h2>
+      <script>
+				var userLibrary = new Array("Morgan", "mbreth", "mbreth1");
+				let userName = prompt("Enter your username");
+				let password;
+				var i;
+				let accessGranted;
+
+				for (i = 0; i < userLibrary.length; i++) {
+					if (userLibrary.includes(userName) === true) {
+						accessGranted = true;
+					} else {
+						accessGranted = false;
+					}
+				}
+				if (accessGranted == true) {
+					alert("You made it!");
+				} else {
+					alert("You failed.");
+				}
+			</script>
+		</body>
+	
+</html>

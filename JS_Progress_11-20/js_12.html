@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		<title>Practice 12</title>
+		<meta charset="utf-8">
+	</head>
+	
+		<body>
+			<h1>Self Taught Javascript</h1>
+			<h2>Number 12</h2>
+			<script>
+				let userName = prompt("Create a username");
+				let password = prompt("Create a password");
+				let secret = prompt("Create a secret word for authentication");
+				
+				// Incredibly unprofessional to store a password like this but this is just for demonstration
+				let user = {
+					name: userName,
+					pass: password,
+					secretWord: secret
+				};
+				
+				document.write("Your username: " + user.name + "<br/>");
+				document.write("Your password: " + user.pass + "<br/>");
+				document.write("Your username: " + user.secretWord + "<br/>");
+				
+			</script>
+		</body>
+	
+</html>

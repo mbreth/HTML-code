@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		<title>Practice 9</title>
+		<meta charset="utf-8">
+	</head>
+	
+		<body>
+			<h1>Self Taught Javascript</h1>
+			<h2>Number 09</h2>
+			<script>
+				let userNum1 = prompt("Enter a number");
+				let userNum2 = prompt("Enter another number");
+				userNum1 = parseInt(userNum1);
+				userNum2 = parseInt(userNum2);
+				let sum = userNum1 + userNum2;
+				let sub = userNum1 - userNum2;
+				let mult = userNum1 * userNum2;
+				let div = userNum1 / userNum2;
+				document.write("1. Add <br/>");
+				document.write("2. Subtract <br/>");
+				document.write("3. Multiply <br/>");
+				document.write("4. Divide <br/>");
+				let userValue = prompt("Please pick a value");
+				userValue = parseInt(userValue);
+				switch(userValue) {
+					case 1:
+						alert(sum);
+						break;
+						
+					case 2:
+						alert(sub);
+						break;
+						
+					case 3:
+						alert(mult);
+						break;
+						
+					case 4:
+						alert(div);
+						break;
+						
+					default:
+						alert("The action you chose does not exist");
+						break;
+				}
+			</script>
+		</body>
+	
+</html>

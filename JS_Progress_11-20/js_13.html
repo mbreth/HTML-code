@@ -1,0 +1,36 @@
+// Using getters and setters
+
+<!doctype html>
+
+<html>
+
+	<head>
+		<title>Practice 13</title>
+		<meta charset="utf-8">
+	</head>
+	
+		<body>
+			<h1>Self Taught Javascript</h1>
+			<h2>Number 13</h2>
+			<script>
+				let user = {
+					get name() {
+						return this._name;
+					},
+					
+					set name(value) {
+						if (value.length < 5) {
+							alert("Name is too short. Please provide a longer username");
+							return;
+						} else {
+							alert("Perfectly fine name");
+						}
+						this._name = value;
+					}
+				};				
+				let person = prompt("Please provide a name");
+				user.name = person;
+			</script>
+		</body>
+	
+</html>

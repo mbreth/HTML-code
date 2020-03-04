@@ -1,7 +1,6 @@
 function sayName() {
     let userName = document.getElementById("name").value;
     let userPass = document.getElementById("password").value;
-    let accessGranted = false;
     
     let userProfile = {
         username: "fake_username",

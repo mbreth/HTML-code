@@ -1,0 +1,50 @@
+body {
+  background: #159957; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #159957,
+    #155799
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #159957,
+    #155799
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.square {
+  height: 380px;
+  width: 480px;
+  background-color: black;
+  position: absolute;
+  justify-content: center;
+}
+
+.screen {
+  position: absolute;
+  height: 280px;
+  width: 380px;
+  background-color: gray;
+  margin: 2em;
+  left: 24px;
+  z-index: 3;
+  justify-content: center;
+}
+
+#hello {
+  position: absolute;
+  z-index: 8;
+  color: white;
+  margin: 2.5em;
+  font-size: 45px;
+  visibility: hidden;
+}
+
+.button1 {
+  position: absolute;
+  border-radius: 200%;
+  z-index: 5;
+  top: 11em;
+  left: 13em;
+  font-size: 30px;
+}

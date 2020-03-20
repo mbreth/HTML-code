@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <h1>Temperature Conversion</h1>
+    <input id="temperature" required placeholder="Enter Temperature" />
+    <div id="buttonsVille">
+      <button id="c_to_f" class="button" type="button" onclick="celTofar()">
+        Celsius to Fahrenheit
+      </button>
+      <button id="f_to_c" class="button" type="button" onclick="farTocel()">
+        Fahrenheit to Celsius
+      </button>
+      <button id="f_to_k" class="button" type="button" onclick="farTokel()">
+        Fahrenheit to Kelvin
+      </button>
+      <button id="c_to_k" class="button" type="button" onclick="celTokel()">
+        Celsius to Kelvin
+      </button>
+      <button id="k_to_f" class="button" type="button" onclick="kelTofar()">
+        Kelvin to Fahrenheit
+      </button>
+      <button id="k_to_c" class="button" type="button" onclick="kelTocel()">
+        Kelvin to Celsius
+      </button>
+    </div>
+    <p id="display"></p>
+  </body>
+</html>

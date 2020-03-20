@@ -1,0 +1,36 @@
+#buttonsVille {
+  border: 3px solid black;
+  width: 250px;
+  margin: 20px auto;
+}
+
+h1 {
+  font-family: "Rubik", monospace;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(149, 161, 217);
+}
+
+#display {
+  border: 2px solid black;
+  height: 65px;
+  font-size: 50px;
+  width: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+.button {
+  width: 250px;
+  background-color: lightgrey;
+  font-size: 30px;
+  border: 2px solid black;
+  font-family: "Rubik", monospace;
+}
+
+#temperature {
+  font-size: 25px;
+  text-align: center;
+}

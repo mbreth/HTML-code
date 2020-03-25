@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Practice 13</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  </head>
+
+  <body>
+	<script>
+		function reverseString() {
+			var userString = document.getElementById("userInput").value;			
+			const reverseArray = [];
+			const length = userString.length - 1;
+			for (let i = length; i >= 0; --i) {
+				reverseArray.push(userString[i]);
+			}
+			var newWord = reverseArray.join('');
+			document.getElementById("display").innerHTML = newWord;
+		}
+	</script>
+    <input id="userInput">
+	<button type="button" onclick="reverseString()">Reverse your word!</button>
+	<p id="display"></p>
+  </body>
+</html>
